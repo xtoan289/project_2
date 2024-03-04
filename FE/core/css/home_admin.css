@@ -1,0 +1,81 @@
+.bottom-navbar {
+    text-align: center;
+    background: var(--green);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+.bottom-navbar a{
+    font-size: 2.5rem;
+    padding: 2rem;
+    color: #fff;
+}
+.bottom-navbar a:hover {
+    background-color: var(--dark-color);
+
+}
+section {
+    padding: 5rem 9%;
+}
+.home {
+    background-size: cover;
+    background-position: center;
+}
+.home .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.home .row .content {
+    flex: 1 1 42rem;
+}
+.home .row .books-slider {
+    flex: 1 1 42rem;
+}
+.home .row .books-slider a{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.home .row .books-slider a img{
+    height: 25rem;
+}
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
+}
+.home .row .content h3{
+    color: var(--black);
+    font-size: 4.5rem;
+}
+.home .row .content p{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    line-height: 1.6;
+    padding: 1rem 0;
+    margin-bottom: 15px;
+}
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: .5rem;
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn:hover {
+    background: var(--dark-color);
+    transition: 1s;
+    color: #fff;
+}
+.header-1 p{
+    font-size: 30px;
+    font-weight: bold;
+}
